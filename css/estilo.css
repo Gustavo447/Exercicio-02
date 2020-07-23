@@ -1,0 +1,50 @@
+body{
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+h1, h2, h3{
+    color: white;
+    margin-left: 5px;
+    font-size: x-large;
+    text-align: center;
+}
+main{
+    background: #00000054;
+    padding: 5px 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.logo{
+    margin: 0;
+    text-align: center;
+}
+p{
+    font-size: large;
+    text-align: justify;
+    color: white;
+    margin-left: 15px;
+    line-height: 25px;
+}
+/*Icones*/
+.icones{
+    text-align: center;
+}
+.redes{
+    margin: 0px 8px;
+    text-decoration: none;
+}
+.icones a:hover > img{
+    transition: 0.5s all;
+    transform: scale(1.4)rotate(26deg);
+}
+footer{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
